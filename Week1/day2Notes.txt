@@ -1,0 +1,37 @@
+Retature day 2 Notes
+
+Git bash structure:
+[command] [arguments, options/flags]
+   Dotnet      new console     -l
+   Ls			        ( -o, --output) (folder-name)
+   Git			--help
+
+Absolute vs relative paths
+c:/ revature/helloWorld/project vs /helloWorld/project
+
+Space separates arguments, if need a space use “quotes” eg. “ My New Folder”
+Double quotes: tell bash to pass on the spaces to the underlying command
+~ means home directory
+. means current directory
+.. means parent directory
+
+Commands:
+	Cd <dir>
+		Change directory, can be absolute or relative
+	Ls <dir>
+		List contents of a directory
+	Mkdir <dir>
+		Create a directory
+	Rm <path>
+		Delete a file
+	Rm -r <path>
+		Delete a directory with its contents
+	Mv <path1> <path2>
+		rename/move a file/directory
+	Touch <path>
+		Create an empty file
+	Pwd
+		Print working directory (folder you’re in right now)
+Some other things to know:
+	
+		
