@@ -16,21 +16,21 @@ Double quotes: tell bash to pass on the spaces to the underlying command
 .. means parent directory
 
 Commands:
-	Cd <dir>
+	cd <dir>
 		Change directory, can be absolute or relative
-	Ls <dir>
+	ls <dir>
 		List contents of a directory
-	Mkdir <dir>
+	mkdir <dir>
 		Create a directory
-	Rm <path>
+	rm <path>
 		Delete a file
-	Rm -r <path>
+	rm -r <path>
 		Delete a directory with its contents
-	Mv <path1> <path2>
+	mv <path1> <path2>
 		rename/move a file/directory
-	Touch <path>
+	touch <path>
 		Create an empty file
-	Pwd
+	pwd
 		Print working directory (folder you’re in right now)
 Some other things to know:
 	
